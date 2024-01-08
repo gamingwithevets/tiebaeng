@@ -8,5 +8,8 @@
 // @grant        none
 // ==/UserScript==
 
+// follow button
+document.getElementsByClassName('islike_focus')[0].style.background = "url(https://gamingwithevets.github.io/tiebaeng/img/frs_islike.png) no-repeat top left";
+
 // unfollow button
-document.getElementById("j_head_focus_btn").style.background = "url(https://gamingwithevets.github.io/tiebaeng/img/frs_cancel_02.png) no-repeat top left";
+document.getElementsByClassName('cancel_focus')[0].style.background = "url(https://gamingwithevets.github.io/tiebaeng/img/frs_cancel_02.png) no-repeat top left";
