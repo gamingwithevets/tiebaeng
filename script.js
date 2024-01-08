@@ -1,11 +1,11 @@
 // ==UserScript==
-// @name Baidu Tieba English Mod
-// @namespace http://gamingwithevets.github.io
-// @version 0.1.0
-// @description  Translates Baidu Tieba to English
-// @match http://tieba.baidu.com/*
-// @copyright 2024+, GamingWithEvets Inc.
-// @require http://code.jquery.com/jquery-latest.js
+// @name         tiebaeng
+// @namespace    http://tampermonkey.net/
+// @version      1.0
+// @description  Baidu Tieba English mod
+// @author       Steveyboi
+// @match        https://tieba.baidu.com/*
+// @grant        none
 // ==/UserScript==
 
 // unfollow button
