@@ -4,7 +4,7 @@
 // @version      1.0
 // @description  Baidu Tieba English mod
 // @author       Steveyboi
-// @match        https://tieba.baidu.com/*
+// @match        *://tieba.baidu.com/*
 // @grant        none
 // ==/UserScript==
 
