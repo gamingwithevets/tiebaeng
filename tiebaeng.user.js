@@ -8,8 +8,11 @@
 // @grant        none
 // ==/UserScript==
 
-// follow button
-document.getElementsByClassName('islike_focus')[0].style.background = "url(https://gamingwithevets.github.io/tiebaeng/img/frs_islike.png) no-repeat top left";
+try {
+	// follow button
+	document.getElementsByClassName('islike_focus')[0].style.background = "url(https://gamingwithevets.github.io/tiebaeng/img/frs_islike.png) no-repeat top left";
+} catch(e) {
+	// unfollow button
+	document.getElementsByClassName('cancel_focus')[0].style.background = "url(https://gamingwithevets.github.io/tiebaeng/img/frs_cancel_02.png) no-repeat top left";
+}
 
-// unfollow button
-document.getElementsByClassName('cancel_focus')[0].style.background = "url(https://gamingwithevets.github.io/tiebaeng/img/frs_cancel_02.png) no-repeat top left";
