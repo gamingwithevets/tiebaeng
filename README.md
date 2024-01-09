@@ -1,1 +1,1 @@
-This is a WIP Baidu Tieba English mod Tampermonkey script.
+This is a WIP Tampermonkey script to aid in viewing [Baidu Tieba](https://tieba.baidu.com) on desktop in English.  To install, [click here](https://gamingwithevets.github.io/tiebaeng/tiebaeng.user.js).
