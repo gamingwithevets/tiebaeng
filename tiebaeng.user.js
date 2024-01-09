@@ -10,11 +10,16 @@
 
 try {
 	// follow button
-	document.getElementsByClassName('islike_focus')[0].style.background = "url(https://gamingwithevets.github.io/tiebaeng/img/frs_islike.png) no-repeat top left";
+	document.getElementsByClassName('islike_focus')[0].style.backgroundImage = "url(https://gamingwithevets.github.io/tiebaeng/img/frs_islike.png)";
 } catch(e) {
 	// unfollow button
-	document.getElementsByClassName('cancel_focus')[0].style.background = "url(https://gamingwithevets.github.io/tiebaeng/img/frs_cancel_02.png) no-repeat top left";
+	document.getElementsByClassName('cancel_focus')[0].style.backgroundImage = "url(https://gamingwithevets.github.io/tiebaeng/img/frs_cancel_02.png)";
 }
+
+try {
+	// Guide
+	document.getElementsByClassName('post_head_official_guide')[0].style.backgroundImage = "url(https://gamingwithevets.github.io/tiebaeng/img/guide-pic.png)";
+} catch(e) { null; }
 
 try {
 	// Enter Post Bar button
