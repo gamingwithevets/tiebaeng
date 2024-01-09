@@ -19,7 +19,7 @@ try {
 try {
 	// Enter Post Bar button
 	document.getElementsByClassName('j_enter_ba')[0].innerHTML = "Enter Post Bar";
-	document.getElementsByClassName('j_enter_ba')[0].style.width = 110px;
+	document.getElementsByClassName('j_enter_ba')[0].style.width = "110px";
 } catch(e) {
 	null;
 }
@@ -27,7 +27,7 @@ try {
 try {
 	// Search All Bars button
 	document.getElementsByClassName('j_search_post')[0].innerHTML = "Search All Bars";
-	document.getElementsByClassName('j_search_post')[0].style.width = 110px;
+	document.getElementsByClassName('j_search_post')[0].style.width = "110px";
 } catch(e) {
 	null;
 }
