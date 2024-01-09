@@ -16,3 +16,17 @@ try {
 	document.getElementsByClassName('cancel_focus')[0].style.background = "url(https://gamingwithevets.github.io/tiebaeng/img/frs_cancel_02.png) no-repeat top left";
 }
 
+try {
+	// Enter Post Bar button
+	document.getElementsByClassName('j_enter_ba')[0].innerHTML = "Enter Post Bar";
+} catch(e) {
+	null;
+}
+
+try {
+	// Search All Bars button
+	document.getElementsByClassName('j_search_post')[0].innerHTML = "Search All Bars";
+} catch(e) {
+	null;
+}
+
