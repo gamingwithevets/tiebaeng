@@ -20,19 +20,15 @@ try {
 	// Enter Post Bar button
 	document.getElementsByClassName('j_enter_ba')[0].innerHTML = "Enter Post Bar";
 	document.getElementsByClassName('j_enter_ba')[0].style.width = "110px";
-} catch(e) {
-	null;
-}
+} catch(e) { null; }
 
 try {
 	// Search All Bars button
 	document.getElementsByClassName('j_search_post')[0].innerHTML = "Search All Bars";
 	document.getElementsByClassName('j_search_post')[0].style.width = "110px";
-} catch(e) {
-	null;
-}
+} catch(e) { null; }
 
 try {
 	// Top navigation bar
-	document.getElementsByClassName('j_search_nav')[0].style.margin-right = "700px";
-}
+	document.getElementsByClassName('j_search_nav')[0].style.marginRight = "700px";
+} catch(e) { null; }
