@@ -32,3 +32,7 @@ try {
 	null;
 }
 
+try {
+	// Top navigation bar
+	document.getElementsByClassName('j_search_nav')[0].style.margin-right = "700px";
+}
