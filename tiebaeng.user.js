@@ -38,3 +38,5 @@ for (let i = 0; i < edui.length; i++) {
 }
 try { document.getElementsByClassName('edui-icon-medal')[0].style.backgroundImage = "url(https://gamingwithevets.github.io/tiebaeng/img/icon_png8_bubble.png)"; } catch(e) { null; }
 try { document.getElementsByClassName('edui-icon-topic')[0].style.backgroundImage = "url(https://gamingwithevets.github.io/tiebaeng/img/icon_topic_n.png)"; } catch(e) { null; }
+try { document.getElementsByClassName('j_topic_add_btn')[0].style.backgroundImage = "url(https://gamingwithevets.github.io/tiebaeng/img/icon_topic_n.png)"; } catch(e) { null; }
+try { document.getElementsByClassName('edui-icon-fullscreen')[0].removeAttribute("style"); } catch(e) { null; }
