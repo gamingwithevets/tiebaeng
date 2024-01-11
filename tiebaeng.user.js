@@ -29,6 +29,8 @@ try {
 	document.getElementsByClassName('j_search_post')[0].style.width = "110px";
 } catch(e) { null; }
 
+// Top navigation bar
+try { document.getElementsByClassName('j_search_nav')[0].style.marginRight = "700px"; } catch(e) { null; }
 
 // Editor icons
 edui = document.getElementsByClassName('edui-icon');
