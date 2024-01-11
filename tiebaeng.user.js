@@ -6,39 +6,28 @@
 // @author       Steveyboi
 // @match        *://tieba.baidu.com/*
 // @grant        none
+// @require http://code.jquery.com/jquery-latest.js
 // ==/UserScript==
 
-// follow button
-try { document.getElementsByClassName('islike_focus')[0].style.backgroundImage = "url(https://gamingwithevets.github.io/tiebaeng/img/frs_islike.png)"; } catch(e) { null; }
-// unfollow button
-try { document.getElementsByClassName('cancel_focus')[0].style.backgroundImage = "url(https://gamingwithevets.github.io/tiebaeng/img/frs_cancel_02.png)"; } catch(e) { null; }
+// Follow button
+$('.islike_focus').css('background-image', 'url(https://gamingwithevets.github.io/tiebaeng/img/frs_islike.png)');
+$('.cancel_focus').css('background-image', 'url(https://gamingwithevets.github.io/tiebaeng/img/frs_cancel_02.png)');
 
 // Guide
-try { document.getElementsByClassName('post_head_official_guide')[0].style.backgroundImage = "url(https://gamingwithevets.github.io/tiebaeng/img/guide-pic.png)"; } catch(e) { null; }
+$('head').append('<style>.post_head_official_guide { background-image: url(https://gamingwithevets.github.io/tiebaeng/img/guide-pic.png); }</style>');
 
 // Enter Post Bar button
-try {
-	document.getElementsByClassName('j_enter_ba')[0].innerHTML = "Enter Post Bar";
-	document.getElementsByClassName('j_enter_ba')[0].style.width = "110px";
-} catch(e) { null; }
+$('.j_enter_ba').html('Enter Post Bar').css('width', '110px');
 
 // Search All Bars button
-try {
-	
-	document.getElementsByClassName('j_search_post')[0].innerHTML = "Search All Bars";
-	document.getElementsByClassName('j_search_post')[0].style.width = "110px";
-} catch(e) { null; }
+$('.j_search_post').html('Search All Bars').css('width', '110px');
 
 // Top navigation bar
-try { document.getElementsByClassName('j_search_nav')[0].style.marginRight = "700px"; } catch(e) { null; }
+$('.j_search_nav').css('margin-right', '700px');
 
 // Editor icons
-edui = document.getElementsByClassName('edui-icon');
-for (let i = 0; i < edui.length; i++) {
-	edui[i].style.backgroundImage = "url(https://gamingwithevets.github.io/tiebaeng/img/icon_png8_old.png)";
-	edui[i].style.width = "52px";
-}
-try { document.getElementsByClassName('edui-icon-medal')[0].style.backgroundImage = "url(https://gamingwithevets.github.io/tiebaeng/img/icon_png8_bubble.png)"; } catch(e) { null; }
-try { document.getElementsByClassName('edui-icon-topic')[0].style.backgroundImage = "url(https://gamingwithevets.github.io/tiebaeng/img/icon_topic_n.png)"; } catch(e) { null; }
-try { document.getElementsByClassName('j_topic_add_btn')[0].style.backgroundImage = "url(https://gamingwithevets.github.io/tiebaeng/img/icon_topic_n.png)"; } catch(e) { null; }
-try { document.getElementsByClassName('edui-icon-fullscreen')[0].removeAttribute("style"); } catch(e) { null; }
+$('.edui-icon').css('background-image', 'url(https://gamingwithevets.github.io/tiebaeng/img/icon_png8_old.png)').css('width', '52px');
+$('.edui-icon-medal').css('background-image', 'url(https://gamingwithevets.github.io/tiebaeng/img/icon_png8_bubble.png)');
+$('.edui-icon-topic').css('background-image', 'url(https://gamingwithevets.github.io/tiebaeng/img/icon_topic_n.png)');
+$('.j_topic_add_btn').css('background-image', 'url(https://gamingwithevets.github.io/tiebaeng/img/icon_topic_n.png)');
+$('.edui-icon-fullscreen').css('background-image', '').css('width', '');
