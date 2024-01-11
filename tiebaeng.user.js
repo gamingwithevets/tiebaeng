@@ -32,5 +32,5 @@ try {
 
 // Editor icons
 edui = document.getElementsByClassName('edui-icon');
-for (let i = 0; i < edui.length; i++) { edui.style.backgroundImage = "url(https://gamingwithevets.github.io/tiebaeng/img/icon_png8_old.png)"; }
+for (let i = 0; i < edui.length; i++) { edui[i].style.backgroundImage = "url(https://gamingwithevets.github.io/tiebaeng/img/icon_png8_old.png)"; }
 
